@@ -1,0 +1,350 @@
+@media (max-width: 1025px) {
+    .dashboard .dash_inner .inner_links {
+        min-height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    header .contain .btns {
+        width: 40%;
+    }
+
+    body .banner {
+        min-height: 34vh;
+        height: unset;
+    }
+
+    .two_grid .contain .colS.colB {
+        align-self: center;
+    }
+
+    .grids .contain .col_heading p {
+        display: flex;
+        align-items: baseline;
+    }
+
+    footer h5 {
+        font-size: 14px;
+    }
+
+    header .contain .logo_area ul {
+        padding-right: 14px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .sec_plan .contain .green_area {
+        left: 25px;
+    }
+
+    header .contain .btns {
+        width: 56%;
+    }
+
+    header .toggle {
+        display: flex;
+        top: unset;
+        bottom: 22px;
+    }
+
+    [nav].active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    [nav] {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: flex;
+        align-content: space-between;
+        flex-flow: column;
+        width: auto;
+        background: #fff;
+        margin: 0;
+        padding: 2rem 5rem;
+        border-top: 0.2rem solid #eee;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+        height: 100%;
+    }
+
+    header [nav] ul {
+        width: 100%;
+        flex-flow: wrap;
+        margin: auto 0;
+    }
+
+    header [nav] ul li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header [nav] ul li a {
+        color: #284354 !important;
+    }
+
+    .banner .contain .innr_content {
+        width: 77%;
+    }
+
+    body .banner {
+        min-height: 40vh;
+    }
+
+    .two_grid .contain .colS .col_video {
+        padding-bottom: 141%;
+    }
+
+    footer .contain .flexRow {
+        flex-wrap: wrap;
+    }
+
+    footer .contain .flexRow>.col {
+        flex: unset;
+        width: calc(100%/2);
+    }
+
+    .sec_login .colS.colB {
+        display: none !important;
+    }
+
+    .sec_login .contain .colA {
+        width: 100%;
+    }
+
+    .sec_login .logo_text {
+        left: 35%;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .sec_plan .contain .colS {
+        width: 100%;
+        margin-bottom: 53px;
+    }
+
+    .sec_plan .contain .green_area {
+        left: 73px;
+    }
+
+    body .banner {
+        min-height: 45vh;
+    }
+
+    .two_grid .contain .colS {
+        width: 100%;
+    }
+
+    .two_grid .contain .colS.colB {
+        padding-left: 0;
+        width: 71%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .two_grid .contain .colS .col_video {
+        padding-bottom: 86%;
+    }
+
+    .grids .contain .flex {
+        justify-content: center;
+    }
+
+    .grids .contain .colS {
+        width: calc(100%/2);
+    }
+
+    .project_listing .contain .col_inner .colS {
+        flex-wrap: wrap;
+    }
+
+    .project_listing .contain .photo {
+        width: 100%;
+        margin-bottom: 15px;
+
+    }
+
+    .project_listing .contain .image {
+        padding-bottom: 43%;
+    }
+
+    .project_listing .contain .content {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 512px) {
+    footer .contain .flexRow>.col {
+        width: 100%;
+    }
+
+    .copyright .contain .inner {
+        display: block;
+    }
+
+    .copyright .contain .inner ul {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .faqs .colr {
+        flex-wrap: wrap;
+    }
+
+    .faqs .contain .colA {
+        width: 100%;
+    }
+
+    body h2 {
+        font-size: 26px;
+    }
+
+    body section {
+        padding: 3rem 0;
+    }
+
+    .grids .contain .colS {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .two_grid .contain .colS.colB {
+        width: 100%;
+    }
+
+    .people .contain .colS {
+        width: calc(100%/2);
+    }
+
+    .banner .contain .form_area {
+        margin-bottom: 0;
+    }
+
+    .banner .form_area .txtBox {
+        margin-bottom: 14px;
+    }
+
+    body .banner {
+        min-height: 84vh;
+    }
+
+    .banner .contain .innr_content {
+        width: 100%;
+    }
+
+    .banner .contain h1 {
+        font-size: 61px;
+    }
+
+    .people .contain .colS:nth-child(2) .col_inner {
+        border-right: none;
+    }
+
+    header .contain .btns {
+        width: 90%;
+    }
+
+    header .contain .btns li {
+        margin-bottom: 10px;
+    }
+
+    header .toggle {
+        top: unset;
+        bottom: 28px;
+    }
+
+    .upNav .contain .colA {
+        width: 60%;
+    }
+
+    .upNav .contain .colB {
+        width: 40%;
+    }
+
+    header .contain .logo_area ul {
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    header .logo_area .ulb {
+        width: 100% !important;
+        position: absolute;
+        top: 17px;
+        left: 0px;
+    }
+
+    header .contain .logo_area ul li {
+        width: calc(100%/2);
+    }
+
+    header .contain .logo_area ul .ula {
+        margin-top: 139px;
+        margin-bottom: 10px;
+    }
+
+    header .contain .logo_area .cart_area {
+        margin-top: 139px;
+        margin-bottom: 10px;
+    }
+
+    header .contain .logo_area .cart_area ul {
+        flex-wrap: nowrap;
+    }
+
+    .sec_detail .contain .image {
+        padding-bottom: 54%;
+        margin-bottom: 21px;
+    }
+
+    .sec_login .contain form {
+        width: 100%;
+    }
+
+    .sec_login .logo_text {
+        left: auto;
+    }
+
+    .sec_plan .contain .green_area {
+        left: 33px;
+    }
+
+    .project_listing .contain .image {
+        padding-bottom: 63%;
+    }
+
+
+}
+
+@media (max-width: 390px) {
+    .upNav .contain .colA {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .upNav .contain .colB {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 340px) {
+    .upNav .contain .colA {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    .upNav .contain .colB {
+        width: 100%;
+        justify-content: center;
+    }
+}
